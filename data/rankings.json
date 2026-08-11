@@ -1,8 +1,8 @@
 {
   "version": "1.1",
-  "generatedAt": "2026-08-11T13:01:33.422319+00:00",
+  "generatedAt": "2026-08-11T13:10:12.091018+00:00",
   "market": {
-    "regime": "Waiting for first GitHub Actions update",
+    "regime": "NIFTY benchmark used",
     "benchmark": "^NSEI"
   },
   "methodology": {
@@ -53,7 +53,1381 @@
       "breakout": 8,
       "volatility": 8,
       "riskReward": 10
-    }
+    },
+    "note": "Research signals only. No guaranteed predictions or investment advice."
   },
-  "rankings": []
+  "summary": {
+    "candidateCount": 106,
+    "selectedCount": 30
+  },
+  "bands": [
+    {
+      "label": "\u20b920\u2013\u20b9100",
+      "min": 20,
+      "max": 100,
+      "count": 5,
+      "stocks": [
+        {
+          "symbol": "IDFCFIRSTB",
+          "price": 84.27,
+          "score": 67.5,
+          "signal": "Watch",
+          "opportunity": 72.5,
+          "confidence": 55.7,
+          "risk": 18.0,
+          "horizon": "1\u20134 weeks",
+          "entry": 84.27,
+          "target": 91.01,
+          "stop": 77.86,
+          "factors": {
+            "momentum": 68.7,
+            "trend": 100.0,
+            "relativeStrength": 55.2,
+            "volume": 11.9,
+            "rsiQuality": 98.0,
+            "breakout": 79.0,
+            "volatility": 82.0,
+            "riskReward": 36.8
+          },
+          "raw": {
+            "return5d": -1.72,
+            "return20d": 6.62,
+            "return60d": 24.64,
+            "relative5d": -1.14,
+            "relative20d": 4.88,
+            "rsi14": 59.1,
+            "macd": -0.1379,
+            "adx14": 37.57,
+            "volumeRatio": 0.24,
+            "atrPercent": 2.25,
+            "breakoutGapPercent": 1.75,
+            "riskReward": 1.05
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 6.6%.",
+            "Relative strength vs NIFTY over 20 days: 4.9 percentage points.",
+            "Volume is 0.2\u00d7 its 20-day average.",
+            "RSI(14): 59.1; breakout gap: 1.8%."
+          ]
+        },
+        {
+          "symbol": "NMDC",
+          "price": 85.45,
+          "score": 63.4,
+          "signal": "Watch",
+          "opportunity": 68.4,
+          "confidence": 54.5,
+          "risk": 15.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 85.45,
+          "target": 92.29,
+          "stop": 81.4,
+          "factors": {
+            "momentum": 55.0,
+            "trend": 65.2,
+            "relativeStrength": 55.9,
+            "volume": 42.4,
+            "rsiQuality": 82.6,
+            "breakout": 89.5,
+            "volatility": 84.3,
+            "riskReward": 59.1
+          },
+          "raw": {
+            "return5d": 1.48,
+            "return20d": 0.54,
+            "return60d": -4.01,
+            "relative5d": 2.07,
+            "relative20d": -1.2,
+            "rsi14": 52.09,
+            "macd": 0.2831,
+            "adx14": 14.16,
+            "volumeRatio": 0.85,
+            "atrPercent": 1.97,
+            "breakoutGapPercent": 0.88,
+            "riskReward": 1.69
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 0.5%.",
+            "Relative strength vs NIFTY over 20 days: -1.2 percentage points.",
+            "Volume is 0.8\u00d7 its 20-day average.",
+            "RSI(14): 52.1; breakout gap: 0.9%."
+          ]
+        },
+        {
+          "symbol": "YESBANK",
+          "price": 22.75,
+          "score": 50.5,
+          "signal": "Weak setup",
+          "opportunity": 50.5,
+          "confidence": 36.0,
+          "risk": 10.3,
+          "horizon": "1\u20134 weeks",
+          "entry": 22.75,
+          "target": 24.57,
+          "stop": 22.07,
+          "factors": {
+            "momentum": 40.1,
+            "trend": 44.9,
+            "relativeStrength": 37.2,
+            "volume": 26.1,
+            "rsiQuality": 59.7,
+            "breakout": 47.3,
+            "volatility": 89.7,
+            "riskReward": 93.3
+          },
+          "raw": {
+            "return5d": -1.09,
+            "return20d": -3.64,
+            "return60d": 3.55,
+            "relative5d": -0.51,
+            "relative20d": -5.39,
+            "rsi14": 41.68,
+            "macd": -0.0056,
+            "adx14": 18.55,
+            "volumeRatio": 0.52,
+            "atrPercent": 1.29,
+            "breakoutGapPercent": 4.4,
+            "riskReward": 2.67
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: -3.6%.",
+            "Relative strength vs NIFTY over 20 days: -5.4 percentage points.",
+            "Volume is 0.5\u00d7 its 20-day average.",
+            "RSI(14): 41.7; breakout gap: 4.4%."
+          ]
+        },
+        {
+          "symbol": "IRFC",
+          "price": 87.91,
+          "score": 43.6,
+          "signal": "Weak setup",
+          "opportunity": 43.6,
+          "confidence": 23.2,
+          "risk": 12.9,
+          "horizon": "1\u20134 weeks",
+          "entry": 87.91,
+          "target": 94.94,
+          "stop": 85.27,
+          "factors": {
+            "momentum": 35.9,
+            "trend": 0.0,
+            "relativeStrength": 39.5,
+            "volume": 30.0,
+            "rsiQuality": 58.0,
+            "breakout": 68.1,
+            "volatility": 87.1,
+            "riskReward": 93.3
+          },
+          "raw": {
+            "return5d": -1.89,
+            "return20d": -0.9,
+            "return60d": -9.58,
+            "relative5d": -1.3,
+            "relative20d": -2.65,
+            "rsi14": 40.91,
+            "macd": 0.2374,
+            "adx14": 22.93,
+            "volumeRatio": 0.6,
+            "atrPercent": 1.61,
+            "breakoutGapPercent": 2.66,
+            "riskReward": 2.67
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: -0.9%.",
+            "Relative strength vs NIFTY over 20 days: -2.6 percentage points.",
+            "Volume is 0.6\u00d7 its 20-day average.",
+            "RSI(14): 40.9; breakout gap: 2.7%."
+          ]
+        },
+        {
+          "symbol": "NHPC",
+          "price": 76.95,
+          "score": 41.5,
+          "signal": "Weak setup",
+          "opportunity": 41.5,
+          "confidence": 28.3,
+          "risk": 17.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 76.95,
+          "target": 83.11,
+          "stop": 74.4,
+          "factors": {
+            "momentum": 26.4,
+            "trend": 36.7,
+            "relativeStrength": 26.6,
+            "volume": 21.5,
+            "rsiQuality": 59.1,
+            "breakout": 36.8,
+            "volatility": 82.3,
+            "riskReward": 84.6
+          },
+          "raw": {
+            "return5d": -4.41,
+            "return20d": -2.31,
+            "return60d": -2.67,
+            "relative5d": -3.83,
+            "relative20d": -4.06,
+            "rsi14": 41.39,
+            "macd": -0.3188,
+            "adx14": 20.32,
+            "volumeRatio": 0.43,
+            "atrPercent": 2.21,
+            "breakoutGapPercent": 5.26,
+            "riskReward": 2.42
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: -2.3%.",
+            "Relative strength vs NIFTY over 20 days: -4.1 percentage points.",
+            "Volume is 0.4\u00d7 its 20-day average.",
+            "RSI(14): 41.4; breakout gap: 5.3%."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "\u20b9100\u2013\u20b9300",
+      "min": 100,
+      "max": 300,
+      "count": 5,
+      "stocks": [
+        {
+          "symbol": "MOTHERSON",
+          "price": 169.26,
+          "score": 80.7,
+          "signal": "Strong setup",
+          "opportunity": 85.7,
+          "confidence": 79.0,
+          "risk": 25.8,
+          "horizon": "1\u20134 weeks",
+          "entry": 169.26,
+          "target": 185.62,
+          "stop": 139.98,
+          "factors": {
+            "momentum": 100.0,
+            "trend": 100.0,
+            "relativeStrength": 100.0,
+            "volume": 36.9,
+            "rsiQuality": 63.9,
+            "breakout": 100.0,
+            "volatility": 74.2,
+            "riskReward": 19.6
+          },
+          "raw": {
+            "return5d": 12.09,
+            "return20d": 19.15,
+            "return60d": 28.95,
+            "relative5d": 12.67,
+            "relative20d": 17.4,
+            "rsi14": 76.39,
+            "macd": 2.3126,
+            "adx14": 24.08,
+            "volumeRatio": 0.74,
+            "atrPercent": 3.22,
+            "breakoutGapPercent": -0.45,
+            "riskReward": 0.56
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 19.1%.",
+            "Relative strength vs NIFTY over 20 days: 17.4 percentage points.",
+            "Volume is 0.7\u00d7 its 20-day average.",
+            "RSI(14): 76.4; breakout gap: -0.4%."
+          ]
+        },
+        {
+          "symbol": "UNIONBANK",
+          "price": 182.5,
+          "score": 79.9,
+          "signal": "Strong setup",
+          "opportunity": 84.9,
+          "confidence": 75.5,
+          "risk": 19.3,
+          "horizon": "1\u20134 weeks",
+          "entry": 182.5,
+          "target": 197.1,
+          "stop": 165.72,
+          "factors": {
+            "momentum": 92.5,
+            "trend": 100.0,
+            "relativeStrength": 82.2,
+            "volume": 44.3,
+            "rsiQuality": 87.4,
+            "breakout": 92.8,
+            "volatility": 80.7,
+            "riskReward": 30.4
+          },
+          "raw": {
+            "return5d": 4.89,
+            "return20d": 6.93,
+            "return60d": 18.2,
+            "relative5d": 5.47,
+            "relative20d": 5.19,
+            "rsi14": 65.71,
+            "macd": 1.13,
+            "adx14": 25.5,
+            "volumeRatio": 0.89,
+            "atrPercent": 2.41,
+            "breakoutGapPercent": 0.6,
+            "riskReward": 0.87
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 6.9%.",
+            "Relative strength vs NIFTY over 20 days: 5.2 percentage points.",
+            "Volume is 0.9\u00d7 its 20-day average.",
+            "RSI(14): 65.7; breakout gap: 0.6%."
+          ]
+        },
+        {
+          "symbol": "PNB",
+          "price": 114.03,
+          "score": 71.2,
+          "signal": "Watch",
+          "opportunity": 76.2,
+          "confidence": 63.4,
+          "risk": 11.6,
+          "horizon": "1\u20134 weeks",
+          "entry": 114.03,
+          "target": 123.15,
+          "stop": 103.64,
+          "factors": {
+            "momentum": 75.3,
+            "trend": 85.1,
+            "relativeStrength": 66.2,
+            "volume": 39.0,
+            "rsiQuality": 92.1,
+            "breakout": 91.8,
+            "volatility": 88.4,
+            "riskReward": 30.7
+          },
+          "raw": {
+            "return5d": 0.04,
+            "return20d": 8.6,
+            "return60d": 15.84,
+            "relative5d": 0.62,
+            "relative20d": 6.86,
+            "rsi14": 63.57,
+            "macd": 0.1407,
+            "adx14": 26.95,
+            "volumeRatio": 0.78,
+            "atrPercent": 1.45,
+            "breakoutGapPercent": 0.68,
+            "riskReward": 0.88
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 8.6%.",
+            "Relative strength vs NIFTY over 20 days: 6.9 percentage points.",
+            "Volume is 0.8\u00d7 its 20-day average.",
+            "RSI(14): 63.6; breakout gap: 0.7%."
+          ]
+        },
+        {
+          "symbol": "GAIL",
+          "price": 175.34,
+          "score": 68.0,
+          "signal": "Watch",
+          "opportunity": 73.0,
+          "confidence": 67.6,
+          "risk": 20.8,
+          "horizon": "1\u20134 weeks",
+          "entry": 175.34,
+          "target": 189.37,
+          "stop": 167.47,
+          "factors": {
+            "momentum": 61.4,
+            "trend": 86.9,
+            "relativeStrength": 54.1,
+            "volume": 61.9,
+            "rsiQuality": 83.9,
+            "breakout": 58.3,
+            "volatility": 79.2,
+            "riskReward": 62.4
+          },
+          "raw": {
+            "return5d": 0.19,
+            "return20d": 2.23,
+            "return60d": 12.31,
+            "relative5d": 0.78,
+            "relative20d": 0.49,
+            "rsi14": 52.7,
+            "macd": -0.1699,
+            "adx14": 16.69,
+            "volumeRatio": 1.24,
+            "atrPercent": 2.59,
+            "breakoutGapPercent": 3.48,
+            "riskReward": 1.78
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 2.2%.",
+            "Relative strength vs NIFTY over 20 days: 0.5 percentage points.",
+            "Volume is 1.2\u00d7 its 20-day average.",
+            "RSI(14): 52.7; breakout gap: 3.5%."
+          ]
+        },
+        {
+          "symbol": "CANBK",
+          "price": 130.3,
+          "score": 62.2,
+          "signal": "Watch",
+          "opportunity": 67.2,
+          "confidence": 46.7,
+          "risk": 16.2,
+          "horizon": "1\u20134 weeks",
+          "entry": 130.3,
+          "target": 140.72,
+          "stop": 122.38,
+          "factors": {
+            "momentum": 67.8,
+            "trend": 50.8,
+            "relativeStrength": 63.3,
+            "volume": 26.1,
+            "rsiQuality": 91.6,
+            "breakout": 84.8,
+            "volatility": 83.8,
+            "riskReward": 46.0
+          },
+          "raw": {
+            "return5d": 1.8,
+            "return20d": 3.63,
+            "return60d": 6.7,
+            "relative5d": 2.38,
+            "relative20d": 1.88,
+            "rsi14": 56.17,
+            "macd": 0.6308,
+            "adx14": 12.82,
+            "volumeRatio": 0.52,
+            "atrPercent": 2.03,
+            "breakoutGapPercent": 1.27,
+            "riskReward": 1.32
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 3.6%.",
+            "Relative strength vs NIFTY over 20 days: 1.9 percentage points.",
+            "Volume is 0.5\u00d7 its 20-day average.",
+            "RSI(14): 56.2; breakout gap: 1.3%."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "\u20b9300\u2013\u20b9500",
+      "min": 300,
+      "max": 500,
+      "count": 5,
+      "stocks": [
+        {
+          "symbol": "NATIONALUM",
+          "price": 388.0,
+          "score": 74.6,
+          "signal": "Watch",
+          "opportunity": 79.6,
+          "confidence": 77.8,
+          "risk": 19.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 388.0,
+          "target": 419.04,
+          "stop": 329.53,
+          "factors": {
+            "momentum": 73.0,
+            "trend": 100.0,
+            "relativeStrength": 73.2,
+            "volume": 60.2,
+            "rsiQuality": 81.7,
+            "breakout": 100.0,
+            "volatility": 80.3,
+            "riskReward": 18.6
+          },
+          "raw": {
+            "return5d": 2.92,
+            "return20d": 6.33,
+            "return60d": -2.74,
+            "relative5d": 3.5,
+            "relative20d": 4.59,
+            "rsi14": 68.34,
+            "macd": 5.227,
+            "adx14": 23.5,
+            "volumeRatio": 1.2,
+            "atrPercent": 2.47,
+            "breakoutGapPercent": -1.37,
+            "riskReward": 0.53
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 6.3%.",
+            "Relative strength vs NIFTY over 20 days: 4.6 percentage points.",
+            "Volume is 1.2\u00d7 its 20-day average.",
+            "RSI(14): 68.3; breakout gap: -1.4%."
+          ]
+        },
+        {
+          "symbol": "RBLBANK",
+          "price": 389.7,
+          "score": 70.4,
+          "signal": "Watch",
+          "opportunity": 75.4,
+          "confidence": 58.8,
+          "risk": 16.6,
+          "horizon": "1\u20134 weeks",
+          "entry": 389.7,
+          "target": 420.88,
+          "stop": 347.61,
+          "factors": {
+            "momentum": 76.0,
+            "trend": 100.0,
+            "relativeStrength": 64.7,
+            "volume": 11.7,
+            "rsiQuality": 92.9,
+            "breakout": 92.9,
+            "volatility": 83.4,
+            "riskReward": 25.9
+          },
+          "raw": {
+            "return5d": 2.4,
+            "return20d": 3.11,
+            "return60d": 20.41,
+            "relative5d": 2.99,
+            "relative20d": 1.36,
+            "rsi14": 63.23,
+            "macd": 2.1068,
+            "adx14": 21.04,
+            "volumeRatio": 0.23,
+            "atrPercent": 2.07,
+            "breakoutGapPercent": 0.59,
+            "riskReward": 0.74
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 3.1%.",
+            "Relative strength vs NIFTY over 20 days: 1.4 percentage points.",
+            "Volume is 0.2\u00d7 its 20-day average.",
+            "RSI(14): 63.2; breakout gap: 0.6%."
+          ]
+        },
+        {
+          "symbol": "FEDERALBNK",
+          "price": 354.55,
+          "score": 66.2,
+          "signal": "Watch",
+          "opportunity": 71.2,
+          "confidence": 63.3,
+          "risk": 15.1,
+          "horizon": "1\u20134 weeks",
+          "entry": 354.55,
+          "target": 382.91,
+          "stop": 321.7,
+          "factors": {
+            "momentum": 69.7,
+            "trend": 100.0,
+            "relativeStrength": 56.6,
+            "volume": 33.2,
+            "rsiQuality": 91.9,
+            "breakout": 42.0,
+            "volatility": 84.9,
+            "riskReward": 30.2
+          },
+          "raw": {
+            "return5d": -2.18,
+            "return20d": 8.26,
+            "return60d": 23.71,
+            "relative5d": -1.6,
+            "relative20d": 6.51,
+            "rsi14": 56.33,
+            "macd": -1.5515,
+            "adx14": 46.72,
+            "volumeRatio": 0.66,
+            "atrPercent": 1.89,
+            "breakoutGapPercent": 4.84,
+            "riskReward": 0.86
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 8.3%.",
+            "Relative strength vs NIFTY over 20 days: 6.5 percentage points.",
+            "Volume is 0.7\u00d7 its 20-day average.",
+            "RSI(14): 56.3; breakout gap: 4.8%."
+          ]
+        },
+        {
+          "symbol": "BIOCON",
+          "price": 426.0,
+          "score": 61.2,
+          "signal": "Watch",
+          "opportunity": 61.2,
+          "confidence": 49.0,
+          "risk": 16.2,
+          "horizon": "1\u20134 weeks",
+          "entry": 426.0,
+          "target": 460.08,
+          "stop": 413.06,
+          "factors": {
+            "momentum": 48.4,
+            "trend": 78.4,
+            "relativeStrength": 47.5,
+            "volume": 21.0,
+            "rsiQuality": 76.6,
+            "breakout": 58.6,
+            "volatility": 83.8,
+            "riskReward": 92.2
+          },
+          "raw": {
+            "return5d": 0.95,
+            "return20d": -2.58,
+            "return60d": -0.38,
+            "relative5d": 1.53,
+            "relative20d": -4.33,
+            "rsi14": 49.37,
+            "macd": -1.1787,
+            "adx14": 17.02,
+            "volumeRatio": 0.42,
+            "atrPercent": 2.03,
+            "breakoutGapPercent": 3.45,
+            "riskReward": 2.63
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: -2.6%.",
+            "Relative strength vs NIFTY over 20 days: -4.3 percentage points.",
+            "Volume is 0.4\u00d7 its 20-day average.",
+            "RSI(14): 49.4; breakout gap: 3.5%."
+          ]
+        },
+        {
+          "symbol": "NYKAA",
+          "price": 325.0,
+          "score": 59.3,
+          "signal": "Weak setup",
+          "opportunity": 64.3,
+          "confidence": 62.2,
+          "risk": 20.5,
+          "horizon": "1\u20134 weeks",
+          "entry": 325.0,
+          "target": 351.0,
+          "stop": 312.53,
+          "factors": {
+            "momentum": 39.8,
+            "trend": 100.0,
+            "relativeStrength": 28.7,
+            "volume": 57.9,
+            "rsiQuality": 79.7,
+            "breakout": 26.5,
+            "volatility": 79.5,
+            "riskReward": 73.0
+          },
+          "raw": {
+            "return5d": -5.11,
+            "return20d": 0.17,
+            "return60d": 19.73,
+            "relative5d": -4.53,
+            "relative20d": -1.58,
+            "rsi14": 50.78,
+            "macd": -2.2351,
+            "adx14": 39.83,
+            "volumeRatio": 1.16,
+            "atrPercent": 2.56,
+            "breakoutGapPercent": 6.12,
+            "riskReward": 2.09
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 0.2%.",
+            "Relative strength vs NIFTY over 20 days: -1.6 percentage points.",
+            "Volume is 1.2\u00d7 its 20-day average.",
+            "RSI(14): 50.8; breakout gap: 6.1%."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "\u20b9500\u2013\u20b91,000",
+      "min": 500,
+      "max": 1000,
+      "count": 5,
+      "stocks": [
+        {
+          "symbol": "CONCOR",
+          "price": 512.0,
+          "score": 62.7,
+          "signal": "Watch",
+          "opportunity": 67.7,
+          "confidence": 56.2,
+          "risk": 20.6,
+          "horizon": "1\u20134 weeks",
+          "entry": 512.0,
+          "target": 552.96,
+          "stop": 468.95,
+          "factors": {
+            "momentum": 56.7,
+            "trend": 88.8,
+            "relativeStrength": 54.8,
+            "volume": 25.0,
+            "rsiQuality": 95.1,
+            "breakout": 71.3,
+            "volatility": 79.4,
+            "riskReward": 33.3
+          },
+          "raw": {
+            "return5d": -0.58,
+            "return20d": 4.14,
+            "return60d": 1.58,
+            "relative5d": -0.0,
+            "relative20d": 2.4,
+            "rsi14": 57.76,
+            "macd": -1.1071,
+            "adx14": 22.36,
+            "volumeRatio": 0.5,
+            "atrPercent": 2.57,
+            "breakoutGapPercent": 2.39,
+            "riskReward": 0.95
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 4.1%.",
+            "Relative strength vs NIFTY over 20 days: 2.4 percentage points.",
+            "Volume is 0.5\u00d7 its 20-day average.",
+            "RSI(14): 57.8; breakout gap: 2.4%."
+          ]
+        },
+        {
+          "symbol": "JSWENERGY",
+          "price": 563.0,
+          "score": 61.7,
+          "signal": "Watch",
+          "opportunity": 66.7,
+          "confidence": 59.0,
+          "risk": 16.3,
+          "horizon": "1\u20134 weeks",
+          "entry": 563.0,
+          "target": 608.04,
+          "stop": 533.08,
+          "factors": {
+            "momentum": 51.5,
+            "trend": 73.2,
+            "relativeStrength": 47.4,
+            "volume": 56.3,
+            "rsiQuality": 82.0,
+            "breakout": 68.0,
+            "volatility": 83.7,
+            "riskReward": 52.7
+          },
+          "raw": {
+            "return5d": -0.88,
+            "return20d": 1.03,
+            "return60d": 5.96,
+            "relative5d": -0.3,
+            "relative20d": -0.71,
+            "rsi14": 51.81,
+            "macd": 2.0381,
+            "adx14": 12.42,
+            "volumeRatio": 1.13,
+            "atrPercent": 2.03,
+            "breakoutGapPercent": 2.66,
+            "riskReward": 1.51
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 1.0%.",
+            "Relative strength vs NIFTY over 20 days: -0.7 percentage points.",
+            "Volume is 1.1\u00d7 its 20-day average.",
+            "RSI(14): 51.8; breakout gap: 2.7%."
+          ]
+        },
+        {
+          "symbol": "IRCTC",
+          "price": 515.05,
+          "score": 57.9,
+          "signal": "Weak setup",
+          "opportunity": 62.9,
+          "confidence": 44.9,
+          "risk": 15.2,
+          "horizon": "1\u20134 weeks",
+          "entry": 515.05,
+          "target": 556.25,
+          "stop": 478.66,
+          "factors": {
+            "momentum": 59.7,
+            "trend": 37.5,
+            "relativeStrength": 59.9,
+            "volume": 37.4,
+            "rsiQuality": 91.0,
+            "breakout": 83.2,
+            "volatility": 84.8,
+            "riskReward": 39.6
+          },
+          "raw": {
+            "return5d": 0.94,
+            "return20d": 3.64,
+            "return60d": -2.78,
+            "relative5d": 1.52,
+            "relative20d": 1.9,
+            "rsi14": 55.91,
+            "macd": 3.2768,
+            "adx14": 21.45,
+            "volumeRatio": 0.75,
+            "atrPercent": 1.91,
+            "breakoutGapPercent": 1.4,
+            "riskReward": 1.13
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 3.6%.",
+            "Relative strength vs NIFTY over 20 days: 1.9 percentage points.",
+            "Volume is 0.7\u00d7 its 20-day average.",
+            "RSI(14): 55.9; breakout gap: 1.4%."
+          ]
+        },
+        {
+          "symbol": "INDHOTEL",
+          "price": 724.0,
+          "score": 54.9,
+          "signal": "Weak setup",
+          "opportunity": 54.9,
+          "confidence": 40.7,
+          "risk": 14.1,
+          "horizon": "1\u20134 weeks",
+          "entry": 724.0,
+          "target": 781.92,
+          "stop": 702.28,
+          "factors": {
+            "momentum": 39.3,
+            "trend": 74.0,
+            "relativeStrength": 32.4,
+            "volume": 15.8,
+            "rsiQuality": 70.3,
+            "breakout": 53.6,
+            "volatility": 85.9,
+            "riskReward": 93.3
+          },
+          "raw": {
+            "return5d": -3.47,
+            "return20d": -1.27,
+            "return60d": 11.41,
+            "relative5d": -2.88,
+            "relative20d": -3.01,
+            "rsi14": 46.49,
+            "macd": -3.0379,
+            "adx14": 24.92,
+            "volumeRatio": 0.32,
+            "atrPercent": 1.76,
+            "breakoutGapPercent": 3.87,
+            "riskReward": 2.67
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: -1.3%.",
+            "Relative strength vs NIFTY over 20 days: -3.0 percentage points.",
+            "Volume is 0.3\u00d7 its 20-day average.",
+            "RSI(14): 46.5; breakout gap: 3.9%."
+          ]
+        },
+        {
+          "symbol": "FORTIS",
+          "price": 935.2,
+          "score": 54.8,
+          "signal": "Weak setup",
+          "opportunity": 54.8,
+          "confidence": 52.7,
+          "risk": 19.4,
+          "horizon": "1\u20134 weeks",
+          "entry": 935.2,
+          "target": 1010.02,
+          "stop": 901.12,
+          "factors": {
+            "momentum": 42.8,
+            "trend": 44.2,
+            "relativeStrength": 42.9,
+            "volume": 70.9,
+            "rsiQuality": 67.3,
+            "breakout": 48.8,
+            "volatility": 80.6,
+            "riskReward": 76.8
+          },
+          "raw": {
+            "return5d": 0.26,
+            "return20d": -3.46,
+            "return60d": -2.54,
+            "relative5d": 0.84,
+            "relative20d": -5.21,
+            "rsi14": 45.13,
+            "macd": -0.3632,
+            "adx14": 11.23,
+            "volumeRatio": 1.42,
+            "atrPercent": 2.43,
+            "breakoutGapPercent": 4.27,
+            "riskReward": 2.2
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: -3.5%.",
+            "Relative strength vs NIFTY over 20 days: -5.2 percentage points.",
+            "Volume is 1.4\u00d7 its 20-day average.",
+            "RSI(14): 45.1; breakout gap: 4.3%."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "\u20b91,000\u2013\u20b91,500",
+      "min": 1000,
+      "max": 1500,
+      "count": 5,
+      "stocks": [
+        {
+          "symbol": "HCLTECH",
+          "price": 1365.4,
+          "score": 76.4,
+          "signal": "Strong setup",
+          "opportunity": 81.4,
+          "confidence": 70.5,
+          "risk": 19.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 1365.4,
+          "target": 1474.63,
+          "stop": 1138.85,
+          "factors": {
+            "momentum": 93.6,
+            "trend": 100.0,
+            "relativeStrength": 84.0,
+            "volume": 27.6,
+            "rsiQuality": 78.3,
+            "breakout": 89.8,
+            "volatility": 80.3,
+            "riskReward": 16.9
+          },
+          "raw": {
+            "return5d": -0.33,
+            "return20d": 18.23,
+            "return60d": 16.95,
+            "relative5d": 0.25,
+            "relative20d": 16.48,
+            "rsi14": 69.86,
+            "macd": 1.0561,
+            "adx14": 33.19,
+            "volumeRatio": 0.55,
+            "atrPercent": 2.46,
+            "breakoutGapPercent": 0.85,
+            "riskReward": 0.48
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 18.2%.",
+            "Relative strength vs NIFTY over 20 days: 16.5 percentage points.",
+            "Volume is 0.6\u00d7 its 20-day average.",
+            "RSI(14): 69.9; breakout gap: 0.8%."
+          ]
+        },
+        {
+          "symbol": "HINDALCO",
+          "price": 1049.1,
+          "score": 74.8,
+          "signal": "Watch",
+          "opportunity": 79.8,
+          "confidence": 74.7,
+          "risk": 16.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 1049.1,
+          "target": 1133.03,
+          "stop": 922.35,
+          "factors": {
+            "momentum": 77.1,
+            "trend": 100.0,
+            "relativeStrength": 75.6,
+            "volume": 48.5,
+            "rsiQuality": 85.8,
+            "breakout": 88.0,
+            "volatility": 83.3,
+            "riskReward": 23.2
+          },
+          "raw": {
+            "return5d": 2.85,
+            "return20d": 7.68,
+            "return60d": 0.6,
+            "relative5d": 3.43,
+            "relative20d": 5.93,
+            "rsi14": 66.44,
+            "macd": 12.2895,
+            "adx14": 26.42,
+            "volumeRatio": 0.97,
+            "atrPercent": 2.09,
+            "breakoutGapPercent": 1.0,
+            "riskReward": 0.66
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 7.7%.",
+            "Relative strength vs NIFTY over 20 days: 5.9 percentage points.",
+            "Volume is 1.0\u00d7 its 20-day average.",
+            "RSI(14): 66.4; breakout gap: 1.0%."
+          ]
+        },
+        {
+          "symbol": "INFY",
+          "price": 1190.7,
+          "score": 73.3,
+          "signal": "Watch",
+          "opportunity": 78.3,
+          "confidence": 69.1,
+          "risk": 21.9,
+          "horizon": "1\u20134 weeks",
+          "entry": 1190.7,
+          "target": 1288.61,
+          "stop": 1025.29,
+          "factors": {
+            "momentum": 76.7,
+            "trend": 95.9,
+            "relativeStrength": 74.7,
+            "volume": 36.8,
+            "rsiQuality": 89.9,
+            "breakout": 100.0,
+            "volatility": 78.1,
+            "riskReward": 20.7
+          },
+          "raw": {
+            "return5d": 1.99,
+            "return20d": 8.95,
+            "return60d": 1.63,
+            "relative5d": 2.57,
+            "relative20d": 7.2,
+            "rsi14": 64.6,
+            "macd": 8.5636,
+            "adx14": 18.31,
+            "volumeRatio": 0.74,
+            "atrPercent": 2.74,
+            "breakoutGapPercent": -0.65,
+            "riskReward": 0.59
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 8.9%.",
+            "Relative strength vs NIFTY over 20 days: 7.2 percentage points.",
+            "Volume is 0.7\u00d7 its 20-day average.",
+            "RSI(14): 64.6; breakout gap: -0.6%."
+          ]
+        },
+        {
+          "symbol": "SBIN",
+          "price": 1066.0,
+          "score": 73.3,
+          "signal": "Watch",
+          "opportunity": 78.3,
+          "confidence": 69.6,
+          "risk": 15.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 1066.0,
+          "target": 1151.28,
+          "stop": 997.41,
+          "factors": {
+            "momentum": 75.1,
+            "trend": 99.3,
+            "relativeStrength": 67.7,
+            "volume": 41.6,
+            "rsiQuality": 95.3,
+            "breakout": 64.9,
+            "volatility": 84.3,
+            "riskReward": 43.5
+          },
+          "raw": {
+            "return5d": 2.23,
+            "return20d": 4.98,
+            "return60d": 12.35,
+            "relative5d": 2.82,
+            "relative20d": 3.24,
+            "rsi14": 57.88,
+            "macd": 4.9242,
+            "adx14": 19.55,
+            "volumeRatio": 0.83,
+            "atrPercent": 1.96,
+            "breakoutGapPercent": 2.93,
+            "riskReward": 1.24
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 5.0%.",
+            "Relative strength vs NIFTY over 20 days: 3.2 percentage points.",
+            "Volume is 0.8\u00d7 its 20-day average.",
+            "RSI(14): 57.9; breakout gap: 2.9%."
+          ]
+        },
+        {
+          "symbol": "AUBANK",
+          "price": 1070.9,
+          "score": 70.7,
+          "signal": "Watch",
+          "opportunity": 75.7,
+          "confidence": 71.3,
+          "risk": 21.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 1070.9,
+          "target": 1158.01,
+          "stop": 963.08,
+          "factors": {
+            "momentum": 66.1,
+            "trend": 100.0,
+            "relativeStrength": 59.8,
+            "volume": 54.0,
+            "rsiQuality": 95.2,
+            "breakout": 81.3,
+            "volatility": 78.3,
+            "riskReward": 28.3
+          },
+          "raw": {
+            "return5d": 1.12,
+            "return20d": 3.24,
+            "return60d": 10.29,
+            "relative5d": 1.71,
+            "relative20d": 1.5,
+            "rsi14": 57.8,
+            "macd": 4.0671,
+            "adx14": 21.89,
+            "volumeRatio": 1.08,
+            "atrPercent": 2.71,
+            "breakoutGapPercent": 1.56,
+            "riskReward": 0.81
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 3.2%.",
+            "Relative strength vs NIFTY over 20 days: 1.5 percentage points.",
+            "Volume is 1.1\u00d7 its 20-day average.",
+            "RSI(14): 57.8; breakout gap: 1.6%."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "\u20b91,500\u2013\u20b92,000",
+      "min": 1500,
+      "max": 2000,
+      "count": 5,
+      "stocks": [
+        {
+          "symbol": "POLICYBZR",
+          "price": 1733.0,
+          "score": 89.3,
+          "signal": "Strong setup",
+          "opportunity": 94.3,
+          "confidence": 100.0,
+          "risk": 22.7,
+          "horizon": "1\u20134 weeks",
+          "entry": 1733.0,
+          "target": 1880.28,
+          "stop": 1503.8,
+          "factors": {
+            "momentum": 100.0,
+            "trend": 100.0,
+            "relativeStrength": 100.0,
+            "volume": 100.0,
+            "rsiQuality": 86.2,
+            "breakout": 100.0,
+            "volatility": 77.3,
+            "riskReward": 22.5
+          },
+          "raw": {
+            "return5d": 8.52,
+            "return20d": 10.6,
+            "return60d": -3.98,
+            "relative5d": 9.1,
+            "relative20d": 8.86,
+            "rsi14": 66.25,
+            "macd": 13.1423,
+            "adx14": 17.54,
+            "volumeRatio": 2.32,
+            "atrPercent": 2.83,
+            "breakoutGapPercent": -4.79,
+            "riskReward": 0.64
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 10.6%.",
+            "Relative strength vs NIFTY over 20 days: 8.9 percentage points.",
+            "Volume is 2.3\u00d7 its 20-day average.",
+            "RSI(14): 66.3; breakout gap: -4.8%."
+          ]
+        },
+        {
+          "symbol": "PAYTM",
+          "price": 1593.7,
+          "score": 84.0,
+          "signal": "Strong setup",
+          "opportunity": 89.0,
+          "confidence": 95.5,
+          "risk": 27.0,
+          "horizon": "1\u20134 weeks",
+          "entry": 1593.7,
+          "target": 1754.8,
+          "stop": 1237.95,
+          "factors": {
+            "momentum": 100.0,
+            "trend": 100.0,
+            "relativeStrength": 100.0,
+            "volume": 86.5,
+            "rsiQuality": 48.4,
+            "breakout": 100.0,
+            "volatility": 73.0,
+            "riskReward": 15.8
+          },
+          "raw": {
+            "return5d": 13.84,
+            "return20d": 15.37,
+            "return60d": 42.12,
+            "relative5d": 14.42,
+            "relative20d": 13.62,
+            "rsi14": 83.47,
+            "macd": 20.4471,
+            "adx14": 38.19,
+            "volumeRatio": 1.73,
+            "atrPercent": 3.37,
+            "breakoutGapPercent": -0.6,
+            "riskReward": 0.45
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 15.4%.",
+            "Relative strength vs NIFTY over 20 days: 13.6 percentage points.",
+            "Volume is 1.7\u00d7 its 20-day average.",
+            "RSI(14): 83.5; breakout gap: -0.6%."
+          ]
+        },
+        {
+          "symbol": "PIDILITIND",
+          "price": 1685.8,
+          "score": 80.7,
+          "signal": "Strong setup",
+          "opportunity": 85.7,
+          "confidence": 75.5,
+          "risk": 17.5,
+          "horizon": "1\u20134 weeks",
+          "entry": 1685.8,
+          "target": 1820.66,
+          "stop": 1525.22,
+          "factors": {
+            "momentum": 92.9,
+            "trend": 100.0,
+            "relativeStrength": 83.4,
+            "volume": 43.1,
+            "rsiQuality": 88.6,
+            "breakout": 99.9,
+            "volatility": 82.5,
+            "riskReward": 29.4
+          },
+          "raw": {
+            "return5d": 4.06,
+            "return20d": 9.16,
+            "return60d": 16.63,
+            "relative5d": 4.64,
+            "relative20d": 7.42,
+            "rsi14": 65.17,
+            "macd": 6.2835,
+            "adx14": 25.55,
+            "volumeRatio": 0.86,
+            "atrPercent": 2.19,
+            "breakoutGapPercent": 0.01,
+            "riskReward": 0.84
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 9.2%.",
+            "Relative strength vs NIFTY over 20 days: 7.4 percentage points.",
+            "Volume is 0.9\u00d7 its 20-day average.",
+            "RSI(14): 65.2; breakout gap: 0.0%."
+          ]
+        },
+        {
+          "symbol": "COFORGE",
+          "price": 1819.0,
+          "score": 79.3,
+          "signal": "Strong setup",
+          "opportunity": 84.3,
+          "confidence": 75.1,
+          "risk": 26.0,
+          "horizon": "1\u20134 weeks",
+          "entry": 1819.0,
+          "target": 1996.27,
+          "stop": 1411.76,
+          "factors": {
+            "momentum": 100.0,
+            "trend": 100.0,
+            "relativeStrength": 100.0,
+            "volume": 25.3,
+            "rsiQuality": 66.8,
+            "breakout": 100.0,
+            "volatility": 74.0,
+            "riskReward": 15.2
+          },
+          "raw": {
+            "return5d": 3.95,
+            "return20d": 19.09,
+            "return60d": 29.42,
+            "relative5d": 4.53,
+            "relative20d": 17.34,
+            "rsi14": 75.09,
+            "macd": 15.4251,
+            "adx14": 30.74,
+            "volumeRatio": 0.51,
+            "atrPercent": 3.25,
+            "breakoutGapPercent": -0.49,
+            "riskReward": 0.44
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 19.1%.",
+            "Relative strength vs NIFTY over 20 days: 17.3 percentage points.",
+            "Volume is 0.5\u00d7 its 20-day average.",
+            "RSI(14): 75.1; breakout gap: -0.5%."
+          ]
+        },
+        {
+          "symbol": "AUROPHARMA",
+          "price": 1658.0,
+          "score": 76.6,
+          "signal": "Strong setup",
+          "opportunity": 81.6,
+          "confidence": 67.1,
+          "risk": 19.8,
+          "horizon": "1\u20134 weeks",
+          "entry": 1658.0,
+          "target": 1790.64,
+          "stop": 1500.55,
+          "factors": {
+            "momentum": 86.5,
+            "trend": 100.0,
+            "relativeStrength": 80.6,
+            "volume": 20.6,
+            "rsiQuality": 90.3,
+            "breakout": 100.0,
+            "volatility": 80.2,
+            "riskReward": 29.5
+          },
+          "raw": {
+            "return5d": 4.55,
+            "return20d": 6.77,
+            "return60d": 9.6,
+            "relative5d": 5.13,
+            "relative20d": 5.03,
+            "rsi14": 64.43,
+            "macd": 8.4518,
+            "adx14": 30.28,
+            "volumeRatio": 0.41,
+            "atrPercent": 2.48,
+            "breakoutGapPercent": 0.0,
+            "riskReward": 0.84
+          },
+          "why": [
+            "Price and trend structure passed the screening rules.",
+            "20-day momentum: 6.8%.",
+            "Relative strength vs NIFTY over 20 days: 5.0 percentage points.",
+            "Volume is 0.4\u00d7 its 20-day average.",
+            "RSI(14): 64.4; breakout gap: 0.0%."
+          ]
+        }
+      ]
+    }
+  ]
 }
