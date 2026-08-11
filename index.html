@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f172a">
+<link rel="manifest" href="manifest.json">
+<title>Indian Stock Pro v1.1</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fb;color:#172033;font-family:Arial,sans-serif}
+header{background:#0f172a;color:white;padding:25px 18px 28px}
+h1{margin:0;font-size:29px}header p{margin:8px 0 0;color:#cbd5e1;font-size:16px}
+main{max-width:1100px;margin:auto;padding:18px}
+.notice{background:white;border-radius:18px;padding:16px;margin-bottom:16px;box-shadow:0 3px 15px #0000000b}
+.status{color:#64748b;font-size:14px}.band{margin:20px 0}
+.band h2{font-size:20px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:white;border-radius:16px;padding:15px;box-shadow:0 3px 15px #0000000b;cursor:pointer;border:1px solid #e5eaf2}
+.card:active{transform:scale(.99)}.top{display:flex;justify-content:space-between;gap:8px}
+.symbol{font-size:18px;font-weight:800}.price{font-size:18px;font-weight:700}
+.signal{display:inline-block;margin-top:8px;padding:5px 9px;border-radius:999px;background:#e8f7ee;color:#08733c;font-size:12px;font-weight:700}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}
+.metric{background:#f7f9fc;border-radius:10px;padding:9px}.metric b{display:block;font-size:15px}.metric span{font-size:11px;color:#718096}
+.progress{height:7px;background:#e8edf4;border-radius:20px;margin-top:12px;overflow:hidden}.progress i{display:block;height:100%;background:#0f172a}
+.empty{padding:18px;background:#fff;border-radius:14px;color:#64748b}
+.modal{display:none;position:fixed;inset:0;background:#0008;z-index:5;padding:20px;overflow:auto}
+.sheet{max-width:720px;margin:30px auto;background:white;border-radius:20px;padding:20px}
+.close{float:right;border:0;background:#edf1f6;border-radius:10px;padding:8px 12px;font-weight:bold}
+.detailgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.detail{background:#f7f9fc;padding:11px;border-radius:10px}
+ul{padding-left:20px;line-height:1.6}.small{font-size:12px;color:#64748b}
+</style>
+</head>
+<body>
+<header><h1>🇮🇳 Indian Stock Pro <small>v1.1</small></h1><p>30 NSE research candidates • 6 price bands • 1–4 week horizon</p></header>
+<main>
+<div class="notice"><b>How it works</b><p>Five highest-scoring qualifying stocks are shown in each price band. Scores combine momentum, trend, relative strength, volume, RSI quality, breakout proximity, volatility and risk/reward.</p><div id="status" class="status">Loading latest rankings…</div></div>
+<div id="app"></div>
+<div class="notice small">Research signals only. This app does not guarantee returns and is not investment advice.</div>
+</main>
+<div id="modal" class="modal"><div class="sheet"><button class="close" onclick="closeModal()">Close</button><div id="details"></div></div></div>
+<script>
+let db=null;
+const money=x=>x==null?"—":"₹"+Number(x).toLocaleString("en-IN",{maximumFractionDigits:2});
+const pct=x=>x==null?"—":Number(x).toFixed(1)+"%";
+function card(s){
+ return `<div class="card" onclick='show(${JSON.stringify(s)})'>
+ <div class="top"><div class="symbol">${s.symbol}</div><div class="price">${money(s.price)}</div></div>
+ <span class="signal">${s.signal||"Research setup"}</span>
+ <div class="metrics">
+  <div class="metric"><b>${s.score}</b><span>Overall score</span></div>
+  <div class="metric"><b>${s.confidence}</b><span>Confidence</span></div>
+  <div class="metric"><b>${money(s.target)}</b><span>Target</span></div>
+  <div class="metric"><b>${money(s.stop)}</b><span>Stop-loss</span></div>
+ </div>
+ <div class="progress"><i style="width:${Math.max(0,Math.min(100,s.score))}%"></i></div>
+ </div>`;
+}
+function render(){
+ const root=document.getElementById("app");
+ if(!db?.bands){root.innerHTML='<div class="empty">No rankings yet. Run the GitHub Actions workflow once.</div>';return}
+ root.innerHTML=db.bands.map(b=>`<section class="band"><h2>${b.label} <span class="small">• top ${b.count}</span></h2><div class="grid">${b.stocks?.length?b.stocks.map(card).join(""):'<div class="empty">No qualifying stocks in this band today.</div>'}</div></section>`).join("");
+}
+function show(s){
+ const f=s.factors||{}, r=s.raw||{};
+ document.getElementById("details").innerHTML=`
+ <h2>${s.symbol} — ${money(s.price)}</h2>
+ <p><b>${s.signal}</b> • ${s.horizon}</p>
+ <div class="detailgrid">
+  <div class="detail"><b>${s.score}/100</b><br><span class="small">Overall score</span></div>
+  <div class="detail"><b>${s.confidence}/100</b><br><span class="small">Confidence</span></div>
+  <div class="detail"><b>${money(s.entry)}</b><br><span class="small">Entry reference</span></div>
+  <div class="detail"><b>${money(s.target)}</b><br><span class="small">Research target</span></div>
+  <div class="detail"><b>${money(s.stop)}</b><br><span class="small">Risk stop</span></div>
+  <div class="detail"><b>${r.riskReward||"—"}:1</b><br><span class="small">Risk/reward</span></div>
+ </div>
+ <h3>Why it was selected</h3><ul>${(s.why||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
+ <h3>Factor scores</h3><div class="detailgrid">
+  ${Object.entries(f).map(([k,v])=>`<div class="detail"><b>${v}</b><br><span class="small">${k}</span></div>`).join("")}
+ </div>
+ <h3>Raw indicators</h3><p class="small">5D ${pct(r.return5d)} • 20D ${pct(r.return20d)} • 60D ${pct(r.return60d)} • RSI ${r.rsi14??"—"} • ADX ${r.adx14??"—"} • Volume ${r.volumeRatio??"—"}× • ATR ${pct(r.atrPercent)}</p>
+ <p class="small">This is a quantitative research screen, not a promise of future performance.</p>`;
+ document.getElementById("modal").style.display="block";
+}
+function closeModal(){document.getElementById("modal").style.display="none"}
+async function load(){
+ try{
+  const res=await fetch("data/rankings.json?"+Date.now());
+  db=await res.json();
+  document.getElementById("status").textContent="Latest generated: "+new Date(db.generatedAt).toLocaleString();
+  render();
+ }catch(e){document.getElementById("status").textContent="Could not load rankings.json";render();}
+}
+load();
+</script>
+</body>
+</html>

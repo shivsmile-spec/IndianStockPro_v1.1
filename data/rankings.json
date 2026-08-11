@@ -1,0 +1,59 @@
+{
+  "version": "1.1",
+  "generatedAt": "2026-08-11T13:01:33.422319+00:00",
+  "market": {
+    "regime": "Waiting for first GitHub Actions update",
+    "benchmark": "^NSEI"
+  },
+  "methodology": {
+    "priceBands": [
+      {
+        "min": 20,
+        "max": 100,
+        "label": "\u20b920\u2013\u20b9100",
+        "count": 5
+      },
+      {
+        "min": 100,
+        "max": 300,
+        "label": "\u20b9100\u2013\u20b9300",
+        "count": 5
+      },
+      {
+        "min": 300,
+        "max": 500,
+        "label": "\u20b9300\u2013\u20b9500",
+        "count": 5
+      },
+      {
+        "min": 500,
+        "max": 1000,
+        "label": "\u20b9500\u2013\u20b91,000",
+        "count": 5
+      },
+      {
+        "min": 1000,
+        "max": 1500,
+        "label": "\u20b91,000\u2013\u20b91,500",
+        "count": 5
+      },
+      {
+        "min": 1500,
+        "max": 2000,
+        "label": "\u20b91,500\u2013\u20b92,000",
+        "count": 5
+      }
+    ],
+    "weights": {
+      "momentum": 22,
+      "trend": 18,
+      "relativeStrength": 16,
+      "volume": 10,
+      "rsiQuality": 8,
+      "breakout": 8,
+      "volatility": 8,
+      "riskReward": 10
+    }
+  },
+  "rankings": []
+}

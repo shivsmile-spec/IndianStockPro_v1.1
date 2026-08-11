@@ -1,0 +1,9 @@
+{
+  "name": "Indian Stock Pro v1.1",
+  "short_name": "Indian Stock Pro",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0f172a",
+  "description": "NSE stock research and price-band ranking assistant"
+}
